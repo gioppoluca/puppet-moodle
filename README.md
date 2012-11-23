@@ -1,4 +1,0 @@
-puppet-moodle
-=============
-
-puppet-moodle
