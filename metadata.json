@@ -1,0 +1,35 @@
+{
+  "name": "gioppoluca-moodle",
+  "author": "Luca Gioppo",
+  "description": "",
+  "license": "GPLv3",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "version": "0.1.0",
+  "checksums": {
+    ".project": "2ef266a74c19d586f70a9052710c260b",
+    "Modulefile": "c30f78d58b09d3fb7b10b27847dcd617",
+    "README.markdown": "b25519d89e968ac257541f0d6ffe6fa0",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests\\init.pp": "6c2ddc8f02a64a000c7e13a310e54837",
+    "manifests\\params.pp": "0072a8049bec2a38cc369bab8ab08e33",
+    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "tests\\init.pp": "1969eb2d48eae0c48c8c3bf989a60b68"
+  },
+  "dependencies": [
+    {
+      "name": "puppetlabs/apache",
+      "version_requirement": "\u003e\u003d0.4.0"
+    },
+    {
+      "name": "puppetlabs/mysql",
+      "version_requirement": "\u003e\u003d0.5.0"
+    },
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "\u003e\u003d3.0.0"
+    }
+  ]
+}
