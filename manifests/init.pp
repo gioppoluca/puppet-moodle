@@ -18,6 +18,7 @@ class moodle (
   $db_name          = $moodle::params::db_name,
   $db_user          = $moodle::params::db_user,
   $db_password      = $moodle::params::db_password,
+  $db_tag      = $moodle::params::db_tag,
   $admin_user       = $moodle::params::admin_user,
   $admin_password   = $moodle::params::admin_password,
   $site_url         = $moodle::params::site_url,
@@ -53,7 +54,7 @@ class moodle (
     password => $db_password,
     host     => $db_host,
     grant    => ['all'],
-    tag      => 'moodle_db',
+    tag      => $db_tag,
   }
 
   notify { "The DB data are: ${db_name} ${db_user} ${db_password} ${db_host}": }

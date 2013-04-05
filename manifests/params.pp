@@ -28,6 +28,7 @@ class moodle::params {
   $db_name            = 'moodle'
   $db_user            = 'moodle'
   $db_password        = 'moodle'
+  $db_tag        = 'moodle_db'
   $site_url           = ''
   $admin_user         = 'admin'
   $admin_password     = '1!admin0'
