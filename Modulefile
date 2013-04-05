@@ -1,14 +1,12 @@
 name 'gioppoluca-moodle'
-version '0.1.0'
+version '0.0.1'
 
 author 'Luca Gioppo'
-license 'GPLv3'
+license ''
 project_page ''
-source ''
+source 'https://github.com/gioppoluca/puppet-moodle'
 summary ''
 description ''
-
-## Add more dependencies, if any:
-dependency 'puppetlabs/apache', '>= 0.4.0'
-dependency 'puppetlabs/mysql', '>= 0.5.0'
-dependency 'puppetlabs/stdlib', '>= 3.0.0' 
+dependency 'puppetlabs/apache', '>=0.4.0'
+dependency 'puppetlabs/mysql', '>=0.5.0'
+dependency 'puppetlabs/stdlib', '>=3.0.0'

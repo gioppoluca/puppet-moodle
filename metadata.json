@@ -2,21 +2,20 @@
   "name": "gioppoluca-moodle",
   "author": "Luca Gioppo",
   "description": "",
-  "license": "GPLv3",
+  "license": "",
   "project_page": "",
-  "source": "",
+  "source": "https://github.com/gioppoluca/puppet-moodle",
   "summary": "",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "checksums": {
-    ".project": "2ef266a74c19d586f70a9052710c260b",
-    "Modulefile": "c30f78d58b09d3fb7b10b27847dcd617",
-    "README.markdown": "b25519d89e968ac257541f0d6ffe6fa0",
+    "Modulefile": "9b407797178a93d788b21126fc459878",
+    "README.markdown": "1b9109af72935075c1dc5e856f171c8a",
     "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
-    "manifests\\init.pp": "6c2ddc8f02a64a000c7e13a310e54837",
-    "manifests\\params.pp": "0072a8049bec2a38cc369bab8ab08e33",
+    "manifests\\init.pp": "15b5d902daa3317d85b9c4968b3f18b1",
+    "manifests\\params.pp": "a3672c32173b7b8cc18de93f1b5f277d",
     "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
     "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
-    "tests\\init.pp": "1969eb2d48eae0c48c8c3bf989a60b68"
+    "tests\\init.pp": "5e9c4aec320dcbc784b5aadaa25c64b7"
   },
   "dependencies": [
     {

@@ -3,6 +3,8 @@
 	<name>moodle</name>
 	<comment></comment>
 	<projects>
+		<project>mysql</project>
+		<project>stdlib</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
